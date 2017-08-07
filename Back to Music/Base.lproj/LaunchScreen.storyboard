@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="gEOy6-Do2lg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TqQ-JE-cuU">
+                                <rect key="frame" x="0.0" y="58" width="320" height="229"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="229" id="Iqw-hz-a4J"/>
+                                </constraints>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1cg-i5-BB5">
+                                <rect key="frame" x="0.0" y="14" width="320" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="y98-Rz-uMS"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Back to Music" id="v4v-8N-ayk"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="1cg-i5-BB5" secondAttribute="trailing" constant="-20" id="1U9-gZ-Fhb"/>
+                            <constraint firstItem="TqQ-JE-cuU" firstAttribute="top" secondItem="1cg-i5-BB5" secondAttribute="bottom" id="O9U-CG-lGO"/>
+                            <constraint firstItem="TqQ-JE-cuU" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Pr2-4o-QB1"/>
+                            <constraint firstItem="1cg-i5-BB5" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="14" id="UJR-Fb-Twf"/>
+                            <constraint firstItem="1cg-i5-BB5" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="pVe-1E-wdd"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="611" y="398"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gEOy6-Do2lg.jpg" width="604" height="604"/>
+    </resources>
+</document>
